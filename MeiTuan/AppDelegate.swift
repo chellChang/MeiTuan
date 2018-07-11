@@ -27,15 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         intro.backgroundColor = UIColor.white
         self.window?.addSubview(intro)
         
-        let time = DispatchTimeInterval.seconds(10)
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now()+time) {
-            UIView.animate(withDuration: 0.5, animations: {
-                intro.alpha = 0.01
-            }, completion: { (finished) in
-                intro.removeFromSuperview()
-            })
-           
-        }
+     
         
         return true
     }

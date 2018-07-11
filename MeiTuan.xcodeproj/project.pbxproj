@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A5E71CC20F5B28C0022C520 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E71CB20F5B28C0022C520 /* IntroView.swift */; };
 		7A6F92C620F49C7B0052D81D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F92C520F49C7B0052D81D /* AppDelegate.swift */; };
 		7A6F92C820F49C7B0052D81D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F92C720F49C7B0052D81D /* ViewController.swift */; };
 		7A6F92CB20F49C7B0052D81D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F92C920F49C7B0052D81D /* Main.storyboard */; };
 		7A6F92CD20F49C7D0052D81D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F92CC20F49C7D0052D81D /* Assets.xcassets */; };
 		7A6F92D020F49C7D0052D81D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F92CE20F49C7D0052D81D /* LaunchScreen.storyboard */; };
 		7A6F92D820F49CA70052D81D /* ImageTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F92D720F49CA70052D81D /* ImageTool.swift */; };
-		7A6F92DA20F49CF90052D81D /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F92D920F49CF90052D81D /* DetailController.swift */; };
-		7A6F92DC20F49D040052D81D /* IntroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F92DB20F49D040052D81D /* IntroController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A5E71CB20F5B28C0022C520 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		7A6F92C220F49C7B0052D81D /* MeiTuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiTuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6F92C520F49C7B0052D81D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A6F92C720F49C7B0052D81D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,8 +26,6 @@
 		7A6F92CF20F49C7D0052D81D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A6F92D120F49C7D0052D81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A6F92D720F49CA70052D81D /* ImageTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTool.swift; sourceTree = "<group>"; };
-		7A6F92D920F49CF90052D81D /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
-		7A6F92DB20F49D040052D81D /* IntroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +58,10 @@
 		7A6F92C420F49C7B0052D81D /* MeiTuan */ = {
 			isa = PBXGroup;
 			children = (
+				7A5E71CB20F5B28C0022C520 /* IntroView.swift */,
 				7A6F92D720F49CA70052D81D /* ImageTool.swift */,
 				7A6F92C520F49C7B0052D81D /* AppDelegate.swift */,
 				7A6F92C720F49C7B0052D81D /* ViewController.swift */,
-				7A6F92D920F49CF90052D81D /* DetailController.swift */,
-				7A6F92DB20F49D040052D81D /* IntroController.swift */,
 				7A6F92C920F49C7B0052D81D /* Main.storyboard */,
 				7A6F92CC20F49C7D0052D81D /* Assets.xcassets */,
 				7A6F92CE20F49C7D0052D81D /* LaunchScreen.storyboard */,
@@ -144,11 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A6F92DA20F49CF90052D81D /* DetailController.swift in Sources */,
 				7A6F92C820F49C7B0052D81D /* ViewController.swift in Sources */,
+				7A5E71CC20F5B28C0022C520 /* IntroView.swift in Sources */,
 				7A6F92C620F49C7B0052D81D /* AppDelegate.swift in Sources */,
 				7A6F92D820F49CA70052D81D /* ImageTool.swift in Sources */,
-				7A6F92DC20F49D040052D81D /* IntroController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

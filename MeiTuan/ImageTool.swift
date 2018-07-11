@@ -193,6 +193,7 @@ extension UIImage {
         UIGraphicsEndImageContext()
         return image!
     }
+    
     class func gestureImage2() -> UIImage {
         let cc  = UIColor.random
         
